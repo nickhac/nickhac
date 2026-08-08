@@ -1,0 +1,68 @@
+<svg width="960" height="440" viewBox="0 0 960 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="dither" width="8" height="8" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1.6" fill="#ff6600"/>
+    </pattern>
+    <pattern id="paperdots" width="6" height="6" patternUnits="userSpaceOnUse">
+      <circle cx="3" cy="3" r="0.7" fill="#0a0a0a" opacity="0.07"/>
+    </pattern>
+    <radialGradient id="fade" cx="100%" cy="0%" r="75%">
+      <stop offset="0%" stop-color="white" stop-opacity="1"/>
+      <stop offset="70%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <mask id="cornermask">
+      <rect x="620" y="0" width="340" height="300" fill="url(#fade)"/>
+    </mask>
+  </defs>
+
+  <!-- paper background -->
+  <rect width="960" height="440" fill="#f5f1ea"/>
+  <rect width="960" height="440" fill="url(#paperdots)"/>
+
+  <!-- offset shadow + card -->
+  <rect x="26" y="26" width="920" height="396" fill="#0a0a0a"/>
+  <rect x="16" y="16" width="920" height="396" fill="#ffffff" stroke="#0a0a0a" stroke-width="4"/>
+
+  <!-- dithered halftone corner -->
+  <g mask="url(#cornermask)">
+    <rect x="620" y="16" width="316" height="280" fill="url(#dither)" transform="rotate(8 780 150)"/>
+  </g>
+
+  <!-- kicker -->
+  <rect x="56" y="52" width="200" height="30" fill="#0a0a0a"/>
+  <text x="70" y="73" font-family="Menlo, monospace" font-size="13" letter-spacing="2" fill="#f5f1ea">FOUNDER MODE: ON</text>
+
+  <!-- name -->
+  <text x="54" y="150" font-family="Helvetica Neue, Arial, sans-serif" font-size="58" font-weight="900" letter-spacing="-2" fill="#0a0a0a">NICK</text>
+  <text x="54" y="210" font-family="Helvetica Neue, Arial, sans-serif" font-size="58" font-weight="900" letter-spacing="-2" fill="#0a0a0a">HOLMES <tspan fill="#ff6600">À</tspan> COURT</text>
+
+  <!-- tagline -->
+  <text x="56" y="252" font-family="Helvetica Neue, Arial, sans-serif" font-size="17" fill="#0a0a0a">Technical founder and engineering leader. <tspan font-weight="700">3× VC-backed, 2 exits.</tspan></text>
+  <text x="56" y="278" font-family="Helvetica Neue, Arial, sans-serif" font-size="17" fill="#0a0a0a">Twenty years shipping production software. Current obsession:</text>
+  <text x="56" y="304" font-family="Helvetica Neue, Arial, sans-serif" font-size="17" fill="#0a0a0a"><tspan font-weight="700" fill="#e05500">verification-first AI agents</tspan> and intent-driven engineering.</text>
+
+  <!-- stat strip shadow -->
+  <rect x="64" y="336" width="840" height="66" fill="#0a0a0a"/>
+  <!-- stat blocks -->
+  <g font-family="Menlo, monospace">
+    <rect x="56" y="328" width="168" height="66" fill="#ffffff" stroke="#0a0a0a" stroke-width="3"/>
+    <text x="140" y="358" text-anchor="middle" font-size="22" font-weight="900" fill="#0a0a0a">20+</text>
+    <text x="140" y="380" text-anchor="middle" font-size="9" letter-spacing="1.5" fill="#444444">YEARS SHIPPING</text>
+
+    <rect x="224" y="328" width="168" height="66" fill="#ff6600" stroke="#0a0a0a" stroke-width="3"/>
+    <text x="308" y="358" text-anchor="middle" font-size="22" font-weight="900" fill="#0a0a0a">200+</text>
+    <text x="308" y="380" text-anchor="middle" font-size="9" letter-spacing="1.5" fill="#0a0a0a">PROD SYSTEMS</text>
+
+    <rect x="392" y="328" width="168" height="66" fill="#ffffff" stroke="#0a0a0a" stroke-width="3"/>
+    <text x="476" y="358" text-anchor="middle" font-size="22" font-weight="900" fill="#0a0a0a">3×</text>
+    <text x="476" y="380" text-anchor="middle" font-size="9" letter-spacing="1.5" fill="#444444">VC-BACKED FOUNDER</text>
+
+    <rect x="560" y="328" width="168" height="66" fill="#ff6600" stroke="#0a0a0a" stroke-width="3"/>
+    <text x="644" y="358" text-anchor="middle" font-size="22" font-weight="900" fill="#0a0a0a">2</text>
+    <text x="644" y="380" text-anchor="middle" font-size="9" letter-spacing="1.5" fill="#0a0a0a">EXITS</text>
+
+    <rect x="728" y="328" width="168" height="66" fill="#ffffff" stroke="#0a0a0a" stroke-width="3"/>
+    <text x="812" y="358" text-anchor="middle" font-size="22" font-weight="900" fill="#0a0a0a">AWS</text>
+    <text x="812" y="380" text-anchor="middle" font-size="9" letter-spacing="1.5" fill="#444444">EX-VC MANAGER</text>
+  </g>
+</svg>

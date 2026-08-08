@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nick Holmes à Court — Technical Founder</title>
+<style>
+  :root {
+    --ink: #0a0a0a;
+    --paper: #f5f1ea;
+    --orange: #ff6600;
+    --orange-dark: #e05500;
+    --card: #ffffff;
+    --shadow: 6px 6px 0 var(--ink);
+    --shadow-sm: 4px 4px 0 var(--ink);
+    --border: 3px solid var(--ink);
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: -apple-system, "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.5;
+    /* subtle paper dither */
+    background-image: radial-gradient(circle, rgba(10,10,10,0.06) 1px, transparent 1px);
+    background-size: 5px 5px;
+  }
+  .mono { font-family: "SF Mono", "IBM Plex Mono", Menlo, monospace; }
+  .wrap { max-width: 960px; margin: 0 auto; padding: 48px 24px 64px; }
+
+  /* ---------- HERO ---------- */
+  .hero {
+    background: var(--card);
+    border: var(--border);
+    box-shadow: var(--shadow);
+    padding: 40px 36px 32px;
+    position: relative;
+    overflow: hidden;
+  }
+  .hero::after {
+    /* dithered halftone corner */
+    content: "";
+    position: absolute;
+    top: -40px; right: -40px;
+    width: 280px; height: 280px;
+    background-image: radial-gradient(circle, var(--orange) 1.6px, transparent 1.6px);
+    background-size: 8px 8px;
+    transform: rotate(15deg);
+    opacity: 0.85;
+    mask-image: radial-gradient(circle at top right, black 0%, transparent 70%);
+    -webkit-mask-image: radial-gradient(circle at top right, black 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .kicker {
+    display: inline-block;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    margin-bottom: 16px;
+  }
+  h1 {
+    font-size: clamp(34px, 6vw, 56px);
+    line-height: 1.02;
+    letter-spacing: -1.5px;
+    text-transform: uppercase;
+    font-weight: 900;
+  }
+  h1 .accent { color: var(--orange); }
+  .hero p.sub {
+    margin-top: 14px;
+    font-size: 17px;
+    max-width: 620px;
+  }
+  .hero p.sub strong { background: var(--orange); color: var(--ink); padding: 0 4px; }
+
+  /* stat strip */
+  .stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    border: var(--border);
+    box-shadow: var(--shadow);
+    margin-top: 28px;
+    background: var(--ink);
+    gap: 3px;
+  }
+  .stat { background: var(--card); padding: 14px 10px; text-align: center; }
+  .stat b { display: block; font-size: 22px; font-weight: 900; letter-spacing: -0.5px; }
+  .stat span { font-size: 11px; text-transform: uppercase; letter-spacing: 1px; color: #444; }
+  .stat.hot { background: var(--orange); }
+  .stat.hot span { color: var(--ink); }
+
+  /* ---------- SECTIONS ---------- */
+  section { margin-top: 48px; }
+  .sec-head {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 18px;
+  }
+  .sec-head .glyph {
+    width: 34px; height: 34px;
+    border: var(--border);
+    background: var(--orange);
+    box-shadow: 3px 3px 0 var(--ink);
+    display: grid;
+    place-items: center;
+    font-size: 16px;
+    font-weight: 900;
+    flex-shrink: 0;
+  }
+  .sec-head h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-weight: 900;
+  }
+  .sec-head .rule { flex: 1; height: 3px; background: var(--ink); }
+
+  /* project cards */
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+  .card {
+    background: var(--card);
+    border: var(--border);
+    box-shadow: var(--shadow-sm);
+    padding: 20px;
+    position: relative;
+    transition: transform .1s ease;
+  }
+  .card:hover { transform: translate(-2px, -2px); box-shadow: var(--shadow); }
+  .card .tag {
+    position: absolute;
+    top: -12px; left: 14px;
+    background: var(--ink);
+    color: var(--paper);
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 3px 8px;
+  }
+  .card .tag.win { background: var(--orange); color: var(--ink); font-weight: 700; }
+  .card h3 { font-size: 18px; font-weight: 900; margin-top: 4px; }
+  .card h3 a { color: var(--ink); text-decoration: none; border-bottom: 3px solid var(--orange); }
+  .card p.what { font-size: 14px; margin-top: 8px; }
+  .card p.outcome {
+    margin-top: 12px;
+    font-size: 13px;
+    padding: 8px 10px;
+    background: var(--paper);
+    border-left: 4px solid var(--orange);
+  }
+  .card p.outcome b { text-transform: uppercase; font-size: 10px; letter-spacing: 1px; display: block; color: var(--orange-dark); }
+
+  /* depth rows */
+  .depth { display: grid; gap: 14px; }
+  .row {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    border: var(--border);
+    background: var(--card);
+    box-shadow: var(--shadow-sm);
+  }
+  .row .label {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 14px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .row .label .dot { width: 10px; height: 10px; background: var(--orange); flex-shrink: 0; }
+  .row .body { padding: 14px 16px; font-size: 14px; }
+  .row .body b { background: rgba(255,102,0,0.18); padding: 0 3px; }
+
+  /* stack block */
+  .stack {
+    border: var(--border);
+    box-shadow: var(--shadow);
+    background: var(--ink);
+    color: var(--paper);
+    padding: 24px 26px;
+    font-size: 13.5px;
+    line-height: 2.1;
+    position: relative;
+    overflow: hidden;
+  }
+  .stack::before {
+    content: "";
+    position: absolute;
+    bottom: -30px; left: -30px;
+    width: 200px; height: 200px;
+    background-image: radial-gradient(circle, rgba(245,241,234,0.35) 1.4px, transparent 1.4px);
+    background-size: 7px 7px;
+    mask-image: radial-gradient(circle at bottom left, black 0%, transparent 70%);
+    -webkit-mask-image: radial-gradient(circle at bottom left, black 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .stack .k { color: var(--orange); font-weight: 700; display: inline-block; width: 110px; }
+
+  /* principles */
+  .grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .prin {
+    border: var(--border);
+    background: var(--card);
+    box-shadow: var(--shadow-sm);
+    padding: 16px;
+  }
+  .prin .num {
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--orange);
+    -webkit-text-stroke: 1.5px var(--ink);
+  }
+  .prin h4 { font-size: 14px; text-transform: uppercase; letter-spacing: 1px; margin: 6px 0 4px; }
+  .prin p { font-size: 13px; color: #333; }
+
+  /* footer */
+  footer {
+    margin-top: 56px;
+    border: var(--border);
+    box-shadow: var(--shadow);
+    background: var(--orange);
+    padding: 28px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  footer .cta { font-size: 20px; font-weight: 900; text-transform: uppercase; letter-spacing: -0.5px; }
+  footer .links { display: flex; gap: 10px; flex-wrap: wrap; }
+  footer a {
+    background: var(--ink);
+    color: var(--paper);
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    padding: 10px 16px;
+    border: 3px solid var(--ink);
+    box-shadow: 3px 3px 0 rgba(0,0,0,0.35);
+  }
+  footer a:hover { background: var(--paper); color: var(--ink); }
+
+  @media (max-width: 760px) {
+    .grid2, .grid3 { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .row { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- ============ HERO ============ -->
+  <div class="hero">
+    <span class="kicker mono">FOUNDER MODE: ON</span>
+    <h1>Nick<br>Holmes <span class="accent">à</span> Court</h1>
+    <p class="sub">
+      Technical founder and engineering leader. <strong>3× VC-backed, 2 exits.</strong>
+      Twenty years shipping production software; current obsession is
+      <strong>verification-first AI agents</strong> and intent-driven engineering.
+    </p>
+
+    <div class="stats mono">
+      <div class="stat"><b>20+</b><span>Years shipping</span></div>
+      <div class="stat hot"><b>200+</b><span>Prod systems</span></div>
+      <div class="stat"><b>3×</b><span>VC-backed founder</span></div>
+      <div class="stat hot"><b>2</b><span>Exits</span></div>
+      <div class="stat"><b>AWS</b><span>Ex-VC manager</span></div>
+    </div>
+  </div>
+
+  <!-- ============ NOW SHIPPING ============ -->
+  <section>
+    <div class="sec-head">
+      <div class="glyph">▲</div>
+      <h2>Now Shipping</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="grid2">
+      <div class="card">
+        <span class="tag">Agent Infra</span>
+        <h3><a href="https://nondual.cloud">Nondual.cloud</a></h3>
+        <p class="what">Relationship infrastructure for AI agents: agent identity, intent graphs, and connector patterns so agents remember who they work with and why.</p>
+        <p class="outcome"><b>Built</b>Production prototypes plus reusable connector patterns. Founder and lead engineer.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Autonomous GTM</span>
+        <h3><a href="https://gtm-os.xyz">GTM-OS.xyz</a></h3>
+        <p class="what">An AI agent that runs go-to-market while you sleep: outreach, qualification and analytics pipelines wired into one loop.</p>
+        <p class="outcome"><b>Built</b>Repeatable revenue-experiment engine. Product and systems lead.</p>
+      </div>
+      <div class="card">
+        <span class="tag win">🏆 Hackathon Winner</span>
+        <h3><a href="https://acquireable.club">Acquireable.club</a></h3>
+        <p class="what">Rapid revenue prototype built under event constraints at the SF Hermes Hackathon, Jul 2026.</p>
+        <p class="outcome"><b>Result</b>Winner: most revenue generated in cohort. Lead engineer.</p>
+      </div>
+      <div class="card">
+        <span class="tag">Agent Factory</span>
+        <h3><a href="https://altitudegroup.org">AltitudeOS</a></h3>
+        <p class="what">Agentic software factory: structured task briefs, CI for agent workflows, repeatable product delivery.</p>
+        <p class="outcome"><b>Built</b>The system that builds the systems. Architect and engineering lead.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEPTH ============ -->
+  <section>
+    <div class="sec-head">
+      <div class="glyph">■</div>
+      <h2>Depth &amp; Currency</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="depth">
+      <div class="row">
+        <div class="label"><span class="dot"></span>Engineering</div>
+        <div class="body">Computer Science degree. 20+ years across <b>Python, JavaScript, C#, SQL</b>, REST and FastAPI, ETL and BI. Personally shipped and managed <b>200+ production systems</b>: multi-tier, cloud-native, event-driven, API-first.</div>
+      </div>
+      <div class="row">
+        <div class="label"><span class="dot"></span>AI Systems</div>
+        <div class="body">Hands-on daily with <b>Cursor, Hermes, Amazon Bedrock and open-source models</b>. Built copilots, multi-agent orchestration, evaluation systems and tool-calling stacks. Research focus: <b>intent graphs, verification architectures, context compression</b>.</div>
+      </div>
+      <div class="row">
+        <div class="label"><span class="dot"></span>Cloud &amp; VC</div>
+        <div class="body">Former <b>Venture Capital Manager at AWS</b>. Worked with hundreds of startups, VC firms and CTOs from Seed through IPO on architecture, migration, security and scaling.</div>
+      </div>
+      <div class="row">
+        <div class="label"><span class="dot"></span>Enterprise</div>
+        <div class="body">Direct work with <b>Australia's largest organisations</b>: board and C-suite stakeholder management, procurement, security review, solution architecture and AI strategy.</div>
+      </div>
+      <div class="row">
+        <div class="label"><span class="dot"></span>Product &amp; GTM</div>
+        <div class="body">Founder-led sales, enterprise negotiation and value engineering. Operated as <b>CEO, CPO and founder</b>: translates deep tech into commercial outcomes, not features.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ STACK ============ -->
+  <section>
+    <div class="sec-head">
+      <div class="glyph">●</div>
+      <h2>Build Stack</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="stack mono">
+      <div><span class="k">frontend</span> Next.js · React · TypeScript · Tailwind</div>
+      <div><span class="k">backend</span> Python · FastAPI · Node · PostgreSQL · Supabase</div>
+      <div><span class="k">ai</span> Cursor · Hermes · Bedrock · open-source LLMs · vector DBs</div>
+      <div><span class="k">agents</span> multi-agent orchestration · tool-calling · eval harnesses</div>
+      <div><span class="k">infra</span> AWS · Vercel · Cloudflare · GitHub Actions</div>
+      <div><span class="k">workflow</span> atomic commits · focused PRs · verification-first CI</div>
+    </div>
+  </section>
+
+  <!-- ============ OPERATING PRINCIPLES ============ -->
+  <section>
+    <div class="sec-head">
+      <div class="glyph">◆</div>
+      <h2>Operating Principles</h2>
+      <div class="rule"></div>
+    </div>
+    <div class="grid3">
+      <div class="prin">
+        <div class="num mono">01</div>
+        <h4>Verify, then trust</h4>
+        <p>Agents earn autonomy through test harnesses, eval loops and human review on risky changes. Speed without auditability is chaos.</p>
+      </div>
+      <div class="prin">
+        <div class="num mono">02</div>
+        <h4>Intent is the spec</h4>
+        <p>Model what humans mean, not just what they type. Intent graphs turn ambiguity into executable, reviewable work.</p>
+      </div>
+      <div class="prin">
+        <div class="num mono">03</div>
+        <h4>Revenue is a feature</h4>
+        <p>Every system ships against a commercial outcome. Built to be sold, adopted and renewed, not just demoed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="cta">Build with me →</div>
+    <div class="links mono">
+      <a href="https://www.linkedin.com/in/nholmesacourt">LinkedIn</a>
+      <a href="https://nickhac.substack.com">Substack</a>
+      <a href="mailto:nick@altitudegroup.org">Email</a>
+    </div>
+  </footer>
+
+</div>
+</body>
+</html>
