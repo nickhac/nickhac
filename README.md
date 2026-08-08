@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/hero.svg" alt="Nick Holmes à Court — Technical founder and engineering leader. 3× VC-backed, 2 exits. 20+ years, 200+ production systems, ex-AWS VC manager." width="100%" />
+  <img src="assets/hero.svg?v=2" alt="Nick Holmes à Court — Technical founder and engineering leader. 3× VC-backed, 2 exits. 20+ years, 200+ production systems, ex-AWS VC manager." width="100%" />
 </div>
 
 <p align="center">
