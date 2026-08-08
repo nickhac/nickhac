@@ -44,8 +44,8 @@
       <br>
       <h3>&nbsp;<a href="https://altitudegroup.org">AltitudeOS</a></h3>
       <p>&nbsp;<kbd>&nbsp;AGENT FACTORY&nbsp;</kbd></p>
-      <p>&nbsp;Agentic software factory: fixed-scope 21-day sprints from defined problem to live production system. Proof case: <a href="https://blacklineintelligence.xyz">Blackline</a>, a government accountability engine reading 21+ official sources daily.</p>
-      <blockquote><b>BUILT</b> — The system that builds the systems.<br><i>Architect and engineering lead</i> · <a href="https://altitudegroup.org/blog/blackline-case-study-agentic-development">Case study →</a></blockquote>
+      <p>&nbsp;Agentic software factory: fixed-scope 21-day sprints from defined problem to live production system. Proof case: <a href="https://blacklineintelligence.xyz">Blackline</a>, a government accountability engine that logged 274,659 signals and mapped $164.6B in dollar exposure in its first two weeks.</p>
+      <blockquote><b>BUILT</b> — The system that builds the systems.<br><i>Architect and engineering lead</i> · <a href="https://altitudegroup.org/blog/blackline-case-study-agentic-development">The build →</a> · <a href="https://altitudegroup.org/blog/blackline-case-study-dta-austender">The findings →</a></blockquote>
       <br>
     </td>
   </tr>
