@@ -1,6 +1,6 @@
 <div align="center">
   <h1>Nick Holmes à Court</h1>
-  <p><kbd>&nbsp;CTO EXPERIENCE PROFILE&nbsp;</kbd></p>
+  <p><kbd>&nbsp;EXPERIENCE PROFILE&nbsp;</kbd></p>
   <p><i>Technical founder and engineering leader. 20+ years building software companies across startups, scale-ups and enterprise.</i></p>
 </div>
 
@@ -8,9 +8,9 @@
 
 ## ▲ Executive Summary
 
-Operated at every layer: software engineer, technical architect, product manager, founder, CEO, Chief Product Officer, Venture Capital Manager at AWS, AI consultant and executive advisor.
+I have operated at every layer of a software company: engineer, architect, product manager, founder, CEO, Chief Product Officer, Venture Capital Manager at AWS, angel investor, AI consultant and executive advisor.
 
-> That range creates unusual fluency across customers, engineering, executives, investors and boards.
+> That range means I can sit with customers, engineers, executives, investors and boards in the same week and speak the native language in each room.
 
 <br>
 
@@ -19,15 +19,15 @@ Operated at every layer: software engineer, technical architect, product manager
 <table>
   <tr>
     <td valign="top" nowrap><br><kbd>&nbsp;EDUCATION&nbsp;</kbd><br><br></td>
-    <td><br>Bachelor of Computer Science. Foundations in algorithms, data structures, software architecture, database systems, operating systems, distributed systems and networking.<br><br></td>
+    <td><br>Bachelor of Computer Science. Algorithms, data structures, software architecture, database systems, operating systems, distributed systems and networking.<br><br></td>
   </tr>
   <tr>
     <td valign="top" nowrap><br><kbd>&nbsp;ENGINEERING&nbsp;</kbd><br><br></td>
-    <td><br>20+ years designing and building production software. Stack includes <b>JavaScript, Python, C#, SQL Server, Oracle, MySQL, REST APIs, FastAPI, Flask</b>, ETL, business intelligence, backend architecture and SaaS platforms. Personally shipped and managed <b>200+ production systems</b> across multiple industries.<br><br></td>
+    <td><br>20+ years building production software. <b>JavaScript, Python, C#, SQL Server, Oracle, REST APIs</b>, ETL, business intelligence, backend architecture and SaaS platforms. I have personally shipped and managed <b>200+ production systems</b> across multiple industries.<br><br></td>
   </tr>
   <tr>
     <td valign="top" nowrap><br><kbd>&nbsp;ARCHITECTURE&nbsp;</kbd><br><br></td>
-    <td><br>Multi-tier web apps, cloud-native and API-first systems, event-driven and microservice designs, large relational databases, data pipelines and enterprise integrations. Current focus: <b>multi-agent orchestration, verification-first agent systems, intent-driven software engineering</b>, autonomous workflows, tool orchestration and long-running AI systems.<br><br></td>
+    <td><br>Multi-tier web apps, cloud-native and API-first systems, event-driven and microservice designs, large relational databases, data pipelines and enterprise integrations. Right now I spend my time on <b>multi-agent orchestration, verification-first agent systems and intent-driven software engineering</b>: autonomous workflows, tool orchestration and long-running AI systems.<br><br></td>
   </tr>
 </table>
 
@@ -35,27 +35,27 @@ Operated at every layer: software engineer, technical architect, product manager
 
 ## ● AI Experience
 
-Primary current domain. Hands-on with **Cursor, Hermes, Amazon Bedrock and open-source models**, agent architectures, prompt engineering, evaluation systems, tool calling, context engineering, long-context optimisation, AI orchestration and AI product design.
+This is where I spend most of my time now. Hands-on daily with **Cursor, Hermes, Amazon Bedrock and open-source models**: agent architectures, prompt engineering, evaluation systems, tool calling, context engineering, long-context optimisation and AI product design.
 
-Built AI copilots, workflow systems, multi-agent systems, knowledge management platforms, personal AI assistants and enterprise AI prototypes.
+I have built AI copilots, workflow systems, multi-agent systems, knowledge management platforms, personal AI assistants and enterprise AI prototypes.
 
-> **RESEARCH FOCUS** — Intent graphs, human intent modelling, autonomous software engineering, verification architectures, agent communication, context compression and enterprise AI governance.
+> **RESEARCH FOCUS:** intent graphs, human intent modelling, autonomous software engineering, verification architectures, agent communication, context compression and enterprise AI governance.
 
 <br>
 
 ## ◆ Cloud Experience
 
-Former **Venture Capital Manager at AWS**. Worked with hundreds of startups, VC firms, technical founders, CTOs and engineering leaders from Seed through IPO scale.
+I was a **Venture Capital Manager at AWS**. I worked with hundreds of startups, VC firms, technical founders, CTOs and engineering leaders from Seed through IPO scale.
 
-Deep exposure to AWS architecture, cloud migration, enterprise adoption, security, infrastructure scaling and startup technical strategy.
+You learn a lot about architecture, migration, security, infrastructure scaling and technical strategy when you see that many companies up close.
 
 <br>
 
 ## ▲ Enterprise Experience
 
-Direct work with Australia's largest organisations. Executive stakeholder management, enterprise sales, solution architecture, cloud adoption, digital transformation, AI strategy, procurement and security.
+Direct work with Australia's largest organisations: executive stakeholder management, enterprise sales, solution architecture, cloud adoption, digital transformation, AI strategy, procurement and security.
 
-> Comfortable presenting technical strategy to boards, CIOs and executive leadership.
+> I have presented technical strategy to boards, CIOs and executive teams. The approach is the same every time: business outcomes first, architecture second.
 
 <br>
 
@@ -68,11 +68,11 @@ Direct work with Australia's largest organisations. Executive stakeholder manage
   </tr>
   <tr>
     <td valign="top" nowrap><br><kbd>&nbsp;FOUNDER&nbsp;</kbd><br><br></td>
-    <td><br>Founder-led sales, product demos, customer discovery and enterprise negotiations.<br><br></td>
+    <td><br>Founder-led sales. Demos, customer discovery and enterprise negotiations. I have been selling my own products for 20 years.<br><br></td>
   </tr>
   <tr>
     <td valign="top" nowrap><br><kbd>&nbsp;TECHNICAL&nbsp;</kbd><br><br></td>
-    <td><br>Translating complex technology into business outcomes, executive presentations, AI workshops and technical strategy sessions.<br><br></td>
+    <td><br>Turning complex technology into business outcomes: executive presentations, AI workshops and technical strategy sessions.<br><br></td>
   </tr>
 </table>
 
@@ -80,29 +80,29 @@ Direct work with Australia's largest organisations. Executive stakeholder manage
 
 ## ● Leadership and Hiring
 
-Led engineers, product managers, designers, sales, customer success and executive teams.
+I have led engineers, product managers, designers, sales, customer success and executive teams.
 
-> **STYLE** — High trust, clear ownership, strong product thinking, fast execution, technical excellence, systems thinking and coaching over control.
+> **STYLE:** high trust, clear ownership, strong product thinking, fast execution, technical excellence and coaching over control.
 
-Hired engineers, product managers, designers and executives. Interviewed hundreds of candidates. Strong pattern recognition for high-performing technical talent.
+I have hired engineers, product managers, designers and executives, and interviewed hundreds of candidates along the way. You develop pattern recognition for high-performing technical talent.
 
 <br>
 
 ## ◆ Technical Strategy and Systems Thinking
 
-**Strengths** — Platform strategy, product architecture, technical roadmaps, AI strategy, build vs buy, engineering prioritisation, organisational scaling and technical due diligence.
+**Strengths:** platform strategy, product architecture, technical roadmaps, AI strategy, build vs buy, engineering prioritisation, organisational scaling and technical due diligence.
 
-**Method** — Works from first principles, systems thinking, second-order effects, incentive analysis, information theory and complex adaptive systems. Comfortable with ambiguous technical and organisational problems.
+**Method:** first principles, systems thinking, second-order effects, incentive analysis, information theory and complex adaptive systems. I like ambiguous problems, technical or organisational.
 
 <br>
 
 ## ▲ Communication and Thought Leadership
 
-Communicates effectively with engineers, founders, executives, investors, enterprise customers and boards. Translates between technical and commercial audiences.
+I write and speak regularly on AI, software engineering, venture capital, startup strategy, product management, systems thinking and founder decision making.
 
-Regular writer and speaker on AI, software engineering, venture capital, startup strategy, product management, systems thinking and founder decision making.
+I translate between technical and commercial audiences: engineers, founders, executives, investors, enterprise customers and boards.
 
-> Known for turning complex technical ideas into practical frameworks.
+> The skill people hire me for: turning complex technical ideas into frameworks they actually use.
 
 <br>
 
@@ -118,16 +118,7 @@ human-AI collaboration              knowledge graphs
 
 <br>
 
-## ● Why This Makes Me an Effective CTO
-
-Rare combination of deep software engineering foundations, executive leadership, product thinking, commercial awareness, founder empathy, enterprise credibility, AI-native technical expertise and venture capital pattern recognition.
-
-> Treats technology as the core strategic advantage, not a delivery function. Focus: align engineering, product, AI and commercial strategy into one execution system that compounds over time.
-
-<br>
-
 <p align="center">
   <a href="https://www.linkedin.com/in/nholmesacourt">LinkedIn</a> ·
-  <a href="https://nickhac.substack.com">Substack</a> ·
-  <a href="mailto:nick@altitudegroup.org">nick@altitudegroup.org</a>
+  <a href="https://nickhac.substack.com">Substack</a>
 </p>
