@@ -8,7 +8,7 @@
 
 ## ▲ Executive Summary
 
-I have operated at every layer of a software company: engineer, architect, product manager, founder, CEO, Chief Product Officer, Venture Capital Manager at AWS, angel investor, AI consultant and executive advisor.
+I have operated at every layer of a software company: engineer, architect, product manager, founder, CEO, CTO, Chief Product Officer, CRO, Corporate Development, Venture Capital.
 
 > That range means I can sit with customers, engineers, executives, investors and boards in the same week and speak the native language in each room.
 
@@ -84,7 +84,7 @@ I have led engineers, product managers, designers, sales, customer success and e
 
 > **STYLE:** high trust, clear ownership, strong product thinking, fast execution, technical excellence and coaching over control.
 
-I have hired engineers, product managers, designers and executives, and interviewed hundreds of candidates along the way. You develop pattern recognition for high-performing technical talent.
+I have hired hundreds of engineers, product managers, designers and executives, and interviewed thousands of candidates along the way. You develop pattern recognition for high-performing A+ technical talent.
 
 <br>
 
@@ -101,8 +101,6 @@ I have hired engineers, product managers, designers and executives, and intervie
 I write and speak regularly on AI, software engineering, venture capital, startup strategy, product management, systems thinking and founder decision making.
 
 I translate between technical and commercial audiences: engineers, founders, executives, investors, enterprise customers and boards.
-
-> The skill people hire me for: turning complex technical ideas into frameworks they actually use.
 
 <br>
 
