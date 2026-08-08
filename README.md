@@ -18,7 +18,7 @@
       <br>
       <h3>&nbsp;<a href="https://nondual.cloud">Nondual.cloud</a></h3>
       <p>&nbsp;<kbd>&nbsp;AGENT INFRA&nbsp;</kbd></p>
-      <p>&nbsp;Relationship infrastructure for AI agents: agent<br>&nbsp;identity, intent graphs and connector patterns, so<br>&nbsp;agents remember who they work with and why.</p>
+      <p>&nbsp;Relationship infrastructure for AI agents: agent identity, intent graphs and connector patterns, so agents remember who they work with and why.</p>
       <blockquote><b>BUILT</b> — Production prototypes plus reusable connector patterns.<br><i>Founder and lead engineer</i></blockquote>
       <br>
     </td>
@@ -26,7 +26,7 @@
       <br>
       <h3>&nbsp;<a href="https://gtm-os.xyz">GTM-OS.xyz</a></h3>
       <p>&nbsp;<kbd>&nbsp;AUTONOMOUS GTM&nbsp;</kbd></p>
-      <p>&nbsp;An AI agent that runs go-to-market while you<br>&nbsp;sleep: outreach, qualification and analytics<br>&nbsp;pipelines wired into one loop.</p>
+      <p>&nbsp;An AI agent that runs go-to-market while you sleep: outreach, qualification and analytics pipelines wired into one loop.</p>
       <blockquote><b>BUILT</b> — Repeatable revenue-experiment engine.<br><i>Product and systems lead</i></blockquote>
       <br>
     </td>
@@ -36,7 +36,7 @@
       <br>
       <h3>&nbsp;<a href="https://acquireable.club">Acquireable.club</a></h3>
       <p>&nbsp;<kbd>&nbsp;🏆 HACKATHON WINNER&nbsp;</kbd></p>
-      <p>&nbsp;Rapid revenue prototype built under event<br>&nbsp;constraints at the SF Hermes Hackathon, Jul 2026.</p>
+      <p>&nbsp;Rapid revenue prototype built under event constraints at the SF Hermes Hackathon, Jul 2026.</p>
       <blockquote><b>RESULT</b> — Winner: most revenue generated in cohort.<br><i>Lead engineer</i></blockquote>
       <br>
     </td>
@@ -44,7 +44,7 @@
       <br>
       <h3>&nbsp;<a href="https://altitudegroup.org">AltitudeOS</a></h3>
       <p>&nbsp;<kbd>&nbsp;AGENT FACTORY&nbsp;</kbd></p>
-      <p>&nbsp;Agentic software factory: structured task briefs,<br>&nbsp;CI for agent workflows and repeatable product<br>&nbsp;delivery.</p>
+      <p>&nbsp;Agentic software factory: structured task briefs, CI for agent workflows and repeatable product delivery.</p>
       <blockquote><b>BUILT</b> — The system that builds the systems.<br><i>Architect and engineering lead</i></blockquote>
       <br>
     </td>
