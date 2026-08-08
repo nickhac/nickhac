@@ -99,6 +99,20 @@ Data first, opinion second. I build the dataset, then write what it says.
 
 <table>
   <tr>
+    <td valign="top" nowrap><br><kbd>&nbsp;GITHUB SCANNER&nbsp;</kbd><br><br></td>
+    <td><br><b><a href="https://nickhac.substack.com/p/the-loudest-people-in-australian">The Loudest People in Australian AI Aren't Building Anything</a></b><br>Built a pipeline to scan GitHub for Australians actually shipping AI code, then compared it against who talks about AI. The overlap is small.<br><br></td>
+  </tr>
+    <tr>
+    <td valign="top" nowrap><br><kbd>&nbsp;20 YEARS OF M&amp;A&nbsp;</kbd><br><br></td>
+    <td><br><b><a href="https://nickhac.substack.com/p/anz-startup-acquisitions-who-buys">ANZ Startup Acquisitions: Who Buys, and What They Pay</a></b><br>Twenty years of Australian and New Zealand tech M&amp;A, analysed for Post Exit Founders AU: acquirer patterns, price bands and what actually gets bought.<br><br></td>
+  </tr>
+  <tr>
+    <td valign="top" nowrap><br><kbd>&nbsp;600M ATO ROWS&nbsp;</kbd><br><br></td>
+    <td><br><b><a href="https://nickhac.substack.com/p/i-spent-six-months-modelling-leaving">I Spent Six Months Modelling Leaving Australia. The Math Was Brutal.</a></b><br>Six months of modelling on 600 million ATO data points, productised as ExitProof.com.au. First 100 respondents: average $4.8M better off over 10 years offshore. <a href="https://www.linkedin.com/posts/activity-7466348344961888256-jJcL">Discussion on LinkedIn</a>.<br><br></td>
+  </tr>
+
+
+  <tr>
     <td valign="top" nowrap><br><kbd>&nbsp;1,691 COMPANIES&nbsp;</kbd><br><br></td>
     <td><br><b><a href="https://nickhac.substack.com/p/the-venture-efficiency-report-2025">The Venture Efficiency Report 2025</a></b><br>Screened every US venture-backed company that raised $20M+ in 2025 for revenue per dollar raised. Median efficiency: $0.11 per $1. The distribution is uglier than anyone admits.<br><br></td>
   </tr>
@@ -106,18 +120,7 @@ Data first, opinion second. I build the dataset, then write what it says.
     <td valign="top" nowrap><br><kbd>&nbsp;28 OUTLIERS&nbsp;</kbd><br><br></td>
     <td><br><b><a href="https://nickhac.substack.com/p/the-28-quiet-winners">The 28 Quiet Winners</a></b><br>The follow-up screen: above $0.50 revenue per $1 raised, $10M+ revenue, under 150 people. 39% are consumer brands, not SaaS. Grüns: 8.57× efficiency. <a href="https://www.linkedin.com/posts/activity-7411514005644730369-uc7e">The LinkedIn post</a> drew 793 reactions and 984 comments.<br><br></td>
   </tr>
-  <tr>
-    <td valign="top" nowrap><br><kbd>&nbsp;600M ATO ROWS&nbsp;</kbd><br><br></td>
-    <td><br><b><a href="https://nickhac.substack.com/p/i-spent-six-months-modelling-leaving">I Spent Six Months Modelling Leaving Australia. The Math Was Brutal.</a></b><br>Six months of modelling on 600 million ATO data points, productised as ExitProof.com.au. First 100 respondents: average $4.8M better off over 10 years offshore. <a href="https://www.linkedin.com/posts/activity-7466348344961888256-jJcL">Discussion on LinkedIn</a>.<br><br></td>
-  </tr>
-  <tr>
-    <td valign="top" nowrap><br><kbd>&nbsp;GITHUB SCANNER&nbsp;</kbd><br><br></td>
-    <td><br><b><a href="https://nickhac.substack.com/p/the-loudest-people-in-australian">The Loudest People in Australian AI Aren't Building Anything</a></b><br>Built a pipeline to scan GitHub for Australians actually shipping AI code, then compared it against who talks about AI. The overlap is small.<br><br></td>
-  </tr>
-  <tr>
-    <td valign="top" nowrap><br><kbd>&nbsp;20 YEARS OF M&amp;A&nbsp;</kbd><br><br></td>
-    <td><br><b><a href="https://nickhac.substack.com/p/anz-startup-acquisitions-who-buys">ANZ Startup Acquisitions: Who Buys, and What They Pay</a></b><br>Twenty years of Australian and New Zealand tech M&amp;A, analysed for Post Exit Founders AU: acquirer patterns, price bands and what actually gets bought.<br><br></td>
-  </tr>
+
 </table>
 
 <p align="center">
