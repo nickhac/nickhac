@@ -160,7 +160,7 @@ Data first, opinion second. I build the dataset, then write what it says.
 <br>
 
 <p align="center">
-  <kbd>&nbsp;<a href="EXPERIENCE.md">FULL CTO EXPERIENCE PROFILE →</a>&nbsp;</kbd>
+  <kbd>&nbsp;<a href="EXPERIENCE.md">FULL EXPERIENCE PROFILE →</a>&nbsp;</kbd>
 </p>
 
 <br>
@@ -169,9 +169,8 @@ Data first, opinion second. I build the dataset, then write what it says.
   <b>BUILD WITH ME →</b>&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/nholmesacourt">LinkedIn</a> ·
   <a href="https://nickhac.substack.com">Substack</a> ·
-  <a href="mailto:nick@altitudegroup.org">nick@altitudegroup.org</a>
 </p>
 
 <p align="center">
-  <sub>📍 Sydney / San Francisco · Altitude Group</sub>
+  <sub>📍 Sydney / San Francisco</sub>
 </p>
