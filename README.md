@@ -84,7 +84,7 @@
 
 ```text
 frontend   Next.js · React · TypeScript · Tailwind
-backend    Python · FastAPI · Node · PostgreSQL · Supabase
+backend    Node.js · Python · Postgres · MongoDB · ClickHouse · Temporal
 ai         Cursor · Hermes · Bedrock · open-source LLMs · vector DBs
 agents     multi-agent orchestration · tool-calling · eval harnesses
 infra      AWS · Vercel · Cloudflare · GitHub Actions
