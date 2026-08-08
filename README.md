@@ -26,8 +26,8 @@
       <br>
       <h3>&nbsp;<a href="https://gtm-os.xyz">GTM-OS.xyz</a></h3>
       <p>&nbsp;<kbd>&nbsp;AUTONOMOUS GTM&nbsp;</kbd></p>
-      <p>&nbsp;An AI agent that runs go-to-market while you sleep: outreach, qualification and analytics pipelines wired into one loop.</p>
-      <blockquote><b>BUILT</b> — Repeatable revenue-experiment engine.<br><i>Product and systems lead</i></blockquote>
+      <p>&nbsp;Paste a URL and agents run the full GTM workflow: ICP, landing pages, cold email, prospect lists. A 5-email sequence in 13.8 seconds. Founder approves, system executes.</p>
+      <blockquote><b>RESULT</b> — Built in 21 days. 97.8% agent run success. Patched its own production bug and shipped the fix, unattended.<br><i>Product and systems lead</i> · <a href="https://altitudegroup.org/blog/gtm-os-case-study">Case study →</a></blockquote>
       <br>
     </td>
   </tr>
@@ -44,8 +44,8 @@
       <br>
       <h3>&nbsp;<a href="https://altitudegroup.org">AltitudeOS</a></h3>
       <p>&nbsp;<kbd>&nbsp;AGENT FACTORY&nbsp;</kbd></p>
-      <p>&nbsp;Agentic software factory: structured task briefs, CI for agent workflows and repeatable product delivery.</p>
-      <blockquote><b>BUILT</b> — The system that builds the systems.<br><i>Architect and engineering lead</i></blockquote>
+      <p>&nbsp;Agentic software factory: fixed-scope 21-day sprints from defined problem to live production system. Proof case: <a href="https://blacklineintelligence.xyz">Blackline</a>, a government accountability engine reading 21+ official sources daily.</p>
+      <blockquote><b>BUILT</b> — The system that builds the systems.<br><i>Architect and engineering lead</i> · <a href="https://altitudegroup.org/blog/blackline-case-study-agentic-development">Case study →</a></blockquote>
       <br>
     </td>
   </tr>
