@@ -124,6 +124,12 @@ workflow   atomic commits · focused PRs · verification-first CI
 <br>
 
 <p align="center">
+  <kbd>&nbsp;<a href="EXPERIENCE.md">FULL CTO EXPERIENCE PROFILE →</a>&nbsp;</kbd>
+</p>
+
+<br>
+
+<p align="center">
   <b>BUILD WITH ME →</b>&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/nholmesacourt">LinkedIn</a> ·
   <a href="https://nickhac.substack.com">Substack</a> ·
